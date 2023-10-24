@@ -1,0 +1,43 @@
+html, body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+#blogs-container {
+    padding: 2em
+}
+
+.nav-bar {
+    box-sizing: border-box;
+    position: fixed;
+    background-color: beige;
+    width: 100%;
+    max-width: 800px;
+    padding: 0.687em 0;
+    padding-left: 0.687em;
+}
+
+.nav-bar h3 {
+    margin: 0;
+    
+}
+
+.form-container {
+    padding: 3em 2em;
+    display: flex;
+    flex-direction: column;
+    background-color: lightcyan;
+}
+
+input#title-input, textarea#text-input {
+    margin-bottom: 10px;
+}
+
+#form-btn {
+    padding: 0.725em;
+    font-size: 1.125rem;
+    cursor: pointer;
+}
